@@ -11,7 +11,7 @@
 
 <?php
 include "../Accueil/menu.php";
-include "./Ville/lyon.php";
+include "./Ville/valence.php";
 include "coordone.php";
 include "commentaire.php";
 ?>

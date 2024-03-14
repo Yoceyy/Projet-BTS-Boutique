@@ -14,10 +14,10 @@
       <ul class="sous">
         <li><a href="#">Marseille</a></li>
         <li><a href="#">Paris</a></li>
-        <li><a href="#">Nice</a></li>
+        <li><a href="../Magasin/valence.php">Valence</a></li>
       </ul>
     </li>
-    <li><a href="#">Contact</a></li>
+    <li><a href="../Contact/contact.php">Contact</a></li>
     <li><a href="#">A propos</a></li>
   </ul>
 </nav>
