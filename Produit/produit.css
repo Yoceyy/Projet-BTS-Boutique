@@ -1,0 +1,61 @@
+
+        body {
+            background-color: rgb(177, 230, 205);
+        }
+        div.bloco {
+            background-image: url('../Produit/images/images/geekzone.png');
+            height: 250px;
+            border: 2px solid black;
+            margin: 12px;
+            background-size: 900px;
+        }
+
+        div#blocoq1 {
+            background-position: left top;
+
+        }
+
+        div.quadrado {
+            display: inline-block;
+            border: 2px  black;
+            background-color: rgb(246, 246, 250);
+            width:  190px;
+            height: 230px;
+            margin: 9px;
+        }
+        
+        div#q2 {  
+            background-image: url('../Produit/images/images/tetris.png');
+            background-position: center;
+            background-size: 220px;
+        }
+
+        div#q3 {
+        background-image: url('../Produit/images/images/mug.png');
+        background-position: center;
+            background-size: 220px;
+
+        }
+
+        div#q4 {
+            background-image: url('../Produit/images/images/fridge.png');
+            background-position: center;
+            background-size: 220px;
+
+        }
+        
+        div#q5 {
+            background-image: url('../Produit/images/images/glacons.png');
+            background-position: center;
+            background-size: 190px;
+
+        }
+        .see-more-btn{
+            padding: 8px;
+            cursor: pointer;
+            background-color: aliceblue;
+            color: rgb(0, 0, 0);
+            border: none;
+            
+        }
+ 
