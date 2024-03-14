@@ -8,50 +8,6 @@ body{
 	background-color: #FFF5D1;
 }
 
-.nav{
-	background-color: rgb(56, 56, 56);
-	width: 100%;
-	height: 100px;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-
-}
-
-.nav li{
-	list-style: none;
-	text-align: center;
-	display: inline-block;
-	margin-right: 30px;
-	margin-left: 30px;
-	margin-top: 40px;
-	font-size: 17px;
-	font-weight: bold;
-}
-
-.nav .Acceuil{
-	margin-left: 40px;
-	margin-right: 40px;
-}
-
-.nav li a{
-	text-decoration: none;
-	color: white;
-}
-
-.nav .name p{
-	font-size: 27px;
-	font-weight:bold;
-	color: white;
-	
-}
-
-.nav .name{
-	margin-left:20px;
-	margin-top: 15px;
-	margin-bottom: 35px;
-	
-}
 
 .Vente{
 	margin-top: 140px;
@@ -263,3 +219,67 @@ main{
 .Boite3 .Achat p{
 	text-align: center;
 }
+
+/*Reset CSS*/
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+  }
+  
+  h1 {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+  }
+  
+  nav {
+	background-color: #333;
+  }
+  
+  nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+  }
+  
+  nav ul li {
+	display: inline-block;
+	position: relative;
+  }
+  
+  nav ul li a {
+	color: #fff;
+	display: block;
+	padding: 10px 20px;
+	text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+	background-color: #555;
+  }
+  
+  nav ul li ul.sous {
+	display: none;
+	position: absolute;
+	background-color: #333;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+  }
+  
+  nav ul li:hover ul.sous {
+	display: block;
+  }
+  
+  nav ul li ul.sous li a {
+	color: #fff;
+	padding: 10px 20px;
+	display: block;
+	text-decoration: none;
+  }
+  
+  nav ul li ul.sous li a:hover {
+	background-color: #555;
+  }
